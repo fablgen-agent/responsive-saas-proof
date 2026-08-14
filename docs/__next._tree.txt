@@ -1,2 +1,2 @@
 :HL["/responsive-saas-proof/_next/static/chunks/36ugenj1cwxqw.css","style"]
-0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}},"staleTime":300,"buildId":"Gq8ofUHWpY6GAqs35T-Jc"}
+0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}},"staleTime":300,"buildId":"NM7l9-kqfuFaOCVEg3oOt"}
