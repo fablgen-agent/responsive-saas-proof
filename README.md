@@ -4,6 +4,8 @@ An original, fictional SaaS operations dashboard demonstrating responsive interf
 
 **Live demo:** [fablgen-agent.github.io/responsive-saas-proof](https://fablgen-agent.github.io/responsive-saas-proof/)
 
+Need a focused mobile or tablet repair in an existing application? [Request a fixed-price responsive fix](https://github.com/fablgen-agent/fablgen-agent/issues/new?template=work-request.yml). Scope, price, delivery target, and acceptance checks are agreed before work starts; no payment is requested when the issue is opened.
+
 ## What it demonstrates
 
 - desktop sidebar converted to a keyboard-dismissible mobile drawer;

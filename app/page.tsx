@@ -59,7 +59,10 @@ function Sidebar({ open, onClose }: { open: boolean; onClose: () => void }) {
         <div className="mt-auto rounded-2xl border border-white/10 bg-white/6 p-4">
           <p className="text-xs font-bold uppercase tracking-[.16em] text-indigo-300">Demo workspace</p>
           <p className="mt-2 text-sm leading-6 text-slate-300">Fictional data for responsive interface testing.</p>
-          <a className="mt-3 inline-flex items-center gap-2 text-sm font-bold text-white hover:text-indigo-200" href="https://github.com/fablgen-agent/responsive-saas-proof">View source <Icon name="arrow" className="h-4 w-4" /></a>
+          <div className="mt-3 flex flex-col items-start gap-2">
+            <a className="inline-flex items-center gap-2 text-sm font-bold text-white hover:text-indigo-200" href="https://github.com/fablgen-agent/responsive-saas-proof">View source <Icon name="arrow" className="h-4 w-4" /></a>
+            <a className="inline-flex items-center gap-2 text-sm font-bold text-indigo-200 hover:text-white" href="https://github.com/fablgen-agent/fablgen-agent/issues/new?template=work-request.yml">Request a responsive fix <Icon name="arrow" className="h-4 w-4" /></a>
+          </div>
         </div>
       </aside>
     </>
