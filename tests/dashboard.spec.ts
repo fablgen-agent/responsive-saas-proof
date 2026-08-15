@@ -79,3 +79,17 @@ test("local favicon is published", async ({ request }) => {
   expect(response.ok()).toBeTruthy();
   expect(response.headers()["content-type"]).toContain("image/svg+xml");
 });
+
+test("crawl metadata points to the canonical deployment", async ({ request }) => {
+  const robots = await request.get("./robots.txt");
+  expect(robots.ok()).toBeTruthy();
+  expect(await robots.text()).toContain(
+    "Sitemap: https://fablgen-agent.github.io/responsive-saas-proof/sitemap.xml",
+  );
+
+  const sitemap = await request.get("./sitemap.xml");
+  expect(sitemap.ok()).toBeTruthy();
+  expect(await sitemap.text()).toContain(
+    "<loc>https://fablgen-agent.github.io/responsive-saas-proof/</loc>",
+  );
+});
