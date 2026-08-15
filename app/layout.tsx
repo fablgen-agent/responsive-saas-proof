@@ -3,13 +3,14 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://fablgen-agent.github.io"),
-  title: "Orbit Ops — Responsive SaaS UI Proof",
+  title: "AutoLane Inventory — Automotive Workflow Proof",
   description:
-    "An original responsive Next.js and Tailwind dashboard demonstrating mobile, tablet, and desktop interface behavior.",
+    "An original responsive automotive inventory, search, enquiry, dealership, and admin workflow built in Next.js and Tailwind CSS.",
   alternates: { canonical: "/responsive-saas-proof/" },
+  icons: { icon: "/responsive-saas-proof/favicon.svg" },
   openGraph: {
-    title: "Orbit Ops — Responsive SaaS UI Proof",
-    description: "An original responsive Next.js and Tailwind dashboard with verified mobile, tablet, and desktop behavior.",
+    title: "AutoLane Inventory — Automotive Workflow Proof",
+    description: "An original automotive inventory and admin workflow with verified mobile, tablet, and desktop behavior.",
     type: "website",
     url: "/responsive-saas-proof/",
   },
